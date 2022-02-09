@@ -1,7 +1,8 @@
-# Flutterコンテナにアクセスできない問題（一部解決）
+# Flutterコンテナにアクセスできない問題（一部解決）Cancel changes
 
 ```shell
 git clone https://github.com/mijumall/flutter_connection_issue.git
+cd flutter_connection_issue
 docker-compose up -d
 docker-compose ps # きちんと動いてるか確認
 ```
