@@ -15,7 +15,7 @@ services:
     container_name: flutter_c
     ports:
       - 4002:4002
-    command: flutter run -d web-server --web-hostname 0.0.0.0 --web-port 4002 --web-renderer html
+    command: flutter run -d web-server --web-hostname 0.0.0.0 --web-port 4002 --web-renderer html 
     stdin_open: true 
     tty: true 
 
