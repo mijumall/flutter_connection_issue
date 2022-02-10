@@ -1,7 +1,8 @@
-# Flutterコンテナにアクセスできない問題（一部解決）
+# Flutterコンテナにアクセスできない問題（一部解決）Cancel changes
 
 ```shell
 git clone https://github.com/mijumall/flutter_connection_issue.git
+cd flutter_connection_issue
 docker-compose up -d
 docker-compose ps # きちんと動いてるか確認
 ```
@@ -16,7 +17,9 @@ Portとサービス
 * 4003... FastAPIがこんにちは。
 
 ブラウザを開き、以下の場所にアクセス
+
 http://localhost:4001/fastapi
+
 4003にプロキシで飛ばされる。想定通り。
 
 同様に、nginx経由でFlutterのカウンターアプリに飛んでみようとするが、うまくいかない。一応返答は返ってくるようだが、何もない画面しかうつらない。
